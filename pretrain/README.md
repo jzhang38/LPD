@@ -2,7 +2,7 @@ This directory contains code and data for pre-training step.
 
 ### 1. Dataset 
 
-We follow [Peng et al., 2020](https://arxiv.org/abs/2010.01923) and use the same pretraining dataset to pre-train LPD. You can follow this [link](https://github.com/thunlp/RE-Context-or-Names/blob/master/pretrain/README.md) to prepare the pretraining dataset. Sucessful preperation will generate file `./data/CP/rel2cope.json` and `./data/CP/cpdata`. 
+We follow [Peng et al., 2020](https://arxiv.org/abs/2010.01923) and use the same pretraining dataset to pre-train LPD. You can download the dataset from [Tsinghua cloud](https://cloud.tsinghua.edu.cn/f/0f85a20ff8794642a2a3/?dl=1) or [google drive](https://drive.google.com/file/d/1q_UeG6PQzCANEqfZLkVLc_6Op9S0RJ8f/view?usp=sharing). Put it under `./data` and run `code/prepare_data.py` to preprocess the dataset. Sucessful preprocession will generate file `./data/CP/rel2cope.json` and `./data/CP/cpdata`. 
 
 The file `./data/CP/rel2cope.json` contains relation to sentences mappings for sentences in  `./data/CP/cpdata`. However, Peng et al., 2020 did not exclude relation types that appear both in the pretraining dataset and the fewrel 1.0 dataset (they only excude the overlapping relation **instnaces**, not the entire relation **type**).
 
