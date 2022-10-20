@@ -14,7 +14,7 @@ A new mapping `./data/CP/rel2cope_excluded.json` that contains no overlapping re
 
 ### 2. Pretrained Model
 
-You can download the [checkpoint](https://drive.google.com/file/d/1HAU6NHoK01Msj-35e_RIr8p-f3ZnrZTl/view?usp=sharing) of LPD pretrained on the original Wikipedia pretraining dataset ), or the [checkpoint](https://drive.google.com/file/d/1zS-xvb5eH6aU8RhEOMvCo4-XeIVBQEAp/view?usp=sharing) pretrained on the filtered out dataset. 
+You can download the [checkpoint](https://drive.google.com/file/d/1HAU6NHoK01Msj-35e_RIr8p-f3ZnrZTl/view?usp=sharing) of LPD pretrained on the original Wikipedia pretraining dataset, or the [checkpoint](https://drive.google.com/file/d/1zS-xvb5eH6aU8RhEOMvCo4-XeIVBQEAp/view?usp=sharing) pretrained on the filtered out dataset. 
 
 
 ### 3. Pretrain
