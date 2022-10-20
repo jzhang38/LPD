@@ -10,7 +10,7 @@ To exclude the overlapping relation types, first go to https://competitions.coda
 ```
 python data/CP/exclude_fewfel.py
 ```
-A new mapping `./data/CP/rel2cope_excluded.json` that contains no overlapping relation types will be generated
+A new mapping `./data/CP/rel2cope_excluded.json` that contains no overlapping relation types will be generated.
 
 ### 2. Pretrained Model
 
