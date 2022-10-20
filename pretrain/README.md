@@ -8,7 +8,7 @@ The file `./data/CP/rel2cope.json` contains relation to sentences mappings for s
 
 To exclude the overlapping relation types, first go to https://competitions.codalab.org/competitions/27980 to download the fewrel 1.0 test set. Put the data under `./finetune/data`, then run 
 ```
-python data/CP/exclude_fewfel.py
+python exclude_fewfel.py
 ```
 A new mapping `./data/CP/rel2cope_excluded.json` that contains no overlapping relation types will be generated.
 

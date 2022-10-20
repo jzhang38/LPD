@@ -258,7 +258,7 @@ def set_seed(seed):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="")
-    parser.add_argument("--dataset", dest="dataset", type=str, default="MTB", help="{MTB,CP}")
+    parser.add_argument("--dataset", dest="dataset", type=str, default="CP", help="{MTB,CP}")
     args = parser.parse_args()
     set_seed(42)
 
