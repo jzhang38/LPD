@@ -31,7 +31,7 @@ do
 done
 ```
 
-To finetine LPD based a pretrained checkpoint:
+To finetine LPD based on a pretrained checkpoint:
 
 ```shell
 for seed in 43
