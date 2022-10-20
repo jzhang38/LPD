@@ -1,4 +1,4 @@
-## Model Checkpoint
+## Finetuned Model
 
 For better reproducibility, we have uploaded our model's [finetuned checkpoint](https://drive.google.com/drive/folders/1IRzpQPY1pSOrJJRvA9hYotfTUdkrcATw?usp=sharing) as well as the test set [prediciton file](https://drive.google.com/drive/folders/1SRB0M-hrQWK__JkAzypyc-TBxMGWlLaL?usp=sharing) to google drive.
 
