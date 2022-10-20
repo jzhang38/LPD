@@ -46,7 +46,7 @@ to install transformers manually.
 Install [apex](https://github.com/NVIDIA/apex) under the offical guidance.
 
 ### 2. More details
-You can cd to `pretrain` or `finetune` to learn more details about pre-training or finetuning.
+You can check the readme file in `pretrain` or `finetune` to learn more details about pre-training or finetuning.
 
 
 
