@@ -10,6 +10,7 @@ import pdb
 import math 
 import torch
 import numpy as np  
+from tqdm import tqdm
 from collections import Counter
 from torch.utils import data
 sys.path.append("../../")
@@ -73,7 +74,7 @@ class CPDataset(data.Dataset):
                 self.label[j] = i
 
         display_count = 0
-        for i, sentence in enumerate(data):
+        for i, sentence in tqdm(enumerate(data)):
             h_flag = random.random() > args.alpha
             t_flag = random.random() > args.alpha
             h_p = sentence["h"]["pos"][0] 

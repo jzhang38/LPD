@@ -1,6 +1,0 @@
-Sat Oct 22 14:34:06 2022
-Namespace(adam_epsilon=1e-08, alpha=0.3, bag_size=2, batch_size_per_gpu=64, cuda='0,1', device=device(type='cuda', index=0), exclude_fewrel=False, gradient_accumulation_steps=16, hidden_size=768, label_mask_prob=0.6, local_rank=0, lr=3e-05, max_epoch=20, max_grad_norm=1, max_length=64, model='CP', n_gpu=2, save_dir='ckpt_lpd_0.6', save_step=500, seed=42, temperature=0.05, train_sample=True, warmup_steps=500, weight_decay=1e-05)
-----------------------------------------------------------------------------
-Sat Oct 22 14:36:16 2022
-Namespace(adam_epsilon=1e-08, alpha=0.3, bag_size=2, batch_size_per_gpu=64, cuda='0,1', device=device(type='cuda', index=0), exclude_fewrel=False, gradient_accumulation_steps=16, hidden_size=768, label_mask_prob=0.6, local_rank=0, lr=3e-05, max_epoch=20, max_grad_norm=1, max_length=64, model='CP', n_gpu=2, save_dir='ckpt_lpd_0.6', save_step=500, seed=42, temperature=0.05, train_sample=True, warmup_steps=500, weight_decay=1e-05)
-----------------------------------------------------------------------------
