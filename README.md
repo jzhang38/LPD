@@ -26,6 +26,7 @@ You can quickly run our code by following steps:
 
 ### 1. Dependencies
 
+We run our experiments on cuda 11.1.
 Run the following script to install dependencies.
 
 ```shell
