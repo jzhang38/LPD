@@ -4,7 +4,6 @@ Official pytorch implementation of our EMNLP 2022 paper [Better Few-Shot Relatio
 @article{my artical
 }
 ```
-Note: this codebase is still a pre-release version. There may be some minor bugs, we will try to provide a 1.0 version by Nov 1.
 
 This codebase is adapted from https://github.com/thunlp/RE-Context-or-Names. 
 ```
