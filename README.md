@@ -1,7 +1,11 @@
 ## LPD
-Official pytorch implementation of our EMNLP 2022 paper [Better Few-Shot Relation Extraction with Label Prompt Dropout]()
+Pytorch implementation of our EMNLP 2022 paper [Better Few-Shot Relation Extraction with Label Prompt Dropout](https://arxiv.org/abs/2210.13733)
 ```
-@article{my artical
+@article{zhang2020better
+  title = {Better Few-Shot Relation Extraction with Label Prompt Dropout},
+  author = {Zhang, Peiyuan and Lu, Wei},
+  journal = {arXiv preprint arXiv:2210.13733}, 
+  year = {2022},
 }
 ```
 
