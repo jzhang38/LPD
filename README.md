@@ -1,10 +1,10 @@
 ## LPD
 Pytorch implementation of our EMNLP 2022 paper [Better Few-Shot Relation Extraction with Label Prompt Dropout](https://arxiv.org/abs/2210.13733)
 ```
-@article{zhang2020better
-  title = {Better Few-Shot Relation Extraction with Label Prompt Dropout},
-  author = {Zhang, Peiyuan and Lu, Wei},
-  journal = {arXiv preprint arXiv:2210.13733}, 
+@inproceedings{zhang-etal-2022-better,
+  title = "Better Few-Shot Relation Extraction with Label Prompt Dropout",
+  author = "Zhang, Peiyuan and Lu, Wei",
+  booktitle = "Proceedings of EMNLP", 
   year = {2022},
 }
 ```
