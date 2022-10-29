@@ -5,7 +5,7 @@ Pytorch implementation of our EMNLP 2022 paper [Better Few-Shot Relation Extract
   title = "Better Few-Shot Relation Extraction with Label Prompt Dropout",
   author = "Zhang, Peiyuan and Lu, Wei",
   booktitle = "Proceedings of EMNLP", 
-  year = {2022},
+  year = "2022",
 }
 ```
 
