@@ -41,7 +41,7 @@ pip install -r requirement.txt
 **transformers**
 We use huggingface transformers to implement Bert.  And for convenience, we have downloaded  [transformers](https://github.com/huggingface/transformers) into `utils/`. And we have also modified some lines in the class `BertForMaskedLM` in `src/transformers/modeling_bert.py` while keep the other codes unchanged. 
 
-You just need run 
+You just need to cd to utils/transformers and run 
 ```
 pip install .
 ```
