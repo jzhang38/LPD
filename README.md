@@ -48,7 +48,7 @@ pip install .
 to install transformers manually.
 
 **apex**
-Install [apex](https://github.com/NVIDIA/apex) under the offical guidance.
+Install [apex](https://github.com/NVIDIA/apex) under the offical guidance (install the python-only build).
 
 ### 2. More details
 You can check the readme file in `pretrain` or `finetune` to learn more details about pre-training or finetuning.
