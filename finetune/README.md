@@ -57,7 +57,7 @@ done
 ```
 
 
-To evaluate on the FewRel 1.0 test set, run the following script to generate the prediction file:
+To evaluate on the FewRel 1.0 test set, first go to https://competitions.codalab.org/competitions/27980 to download the unlabelled fewrel 1.0 test data. Run the following script to generate the prediction file:
 
 ```shell
 for seed in 43
@@ -111,7 +111,7 @@ do
 done
 ```
 
-To evaluate on the FewRel 2.0 test set, run the following script to generate the prediction file:
+To evaluate on the FewRel 2.0 test set, first go to https://codalab.lisn.upsaclay.fr/competitions/7397 to download the unlabelled fewrel 2.0 test data.  Run the following script to generate the prediction file:
 
 ```shell
 for seed in 43
