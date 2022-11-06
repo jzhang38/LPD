@@ -68,7 +68,7 @@ do
 	do
 	CUDA_VISIBLE_DEVICES=2 python train_demo.py \
 	--trainN ${Nway} --N ${Nway} --K ${Kshot} --Q 1 \
-	--val val_wiki --test test_wiki_input-${Nway}-${Kshot}.json \
+	--val val_wiki --test data/test_wiki_input-${Nway}-${Kshot}.json \
 	--model proto --encoder bert --hidden_size 768 --val_step 1000 \
 	--mode CM \
   	--batch_size 4 --fp16 \
