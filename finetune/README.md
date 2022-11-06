@@ -127,7 +127,7 @@ do
 	--mode CM \
   	--batch_size 4 --fp16 \
 	--seed ${seed} \
-    --load_ckpt  [path_to_the_saved_checkpoint_generated_after_finetuning]  --do_prediction  --prediction_save_path prediction/checkpoint/[name your prediction file]/
+    --load_ckpt  [path_to_the_saved_checkpoint_generated_after_finetuning]  --do_prediction  --prediction_save_path prediction/[name your prediction file]/
 	done
 	done
 	done
