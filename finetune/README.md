@@ -66,8 +66,6 @@ do
 	do
 	for Kshot in 1
 	do
-	for prob in  0.4 
-	do
 	CUDA_VISIBLE_DEVICES=2 python train_demo.py \
 	--trainN ${Nway} --N ${Nway} --K ${Kshot} --Q 1 \
 	--val val_wiki --test test_wiki_input-${Nway}-${Kshot}.json \
@@ -75,8 +73,7 @@ do
 	--mode CM \
   	--batch_size 4 --fp16 \
 	--seed ${seed} \
-    --load_ckpt [path_to_the_saved_checkpoint_generated_after_finetuning]   --label_mask_prob ${prob} --do_prediction --prediction_save_path prediction/[name your prediction file]/
-	done
+    --load_ckpt [path_to_the_saved_checkpoint_generated_after_finetuning]   --do_prediction --prediction_save_path prediction/[name your prediction file]/
 	done
 	done
 done
@@ -123,8 +120,6 @@ do
 	do
 	for Kshot in 5 1
 	do
-	for prob in  0.8
-	do
 	CUDA_VISIBLE_DEVICES=2 python train_demo.py \
 	--trainN ${Nway} --N ${Nway} --K ${Kshot} --Q 1 \
 	--val val_wiki --test data/test_pubmed_input-${Nway}-${Kshot}.json \
@@ -132,8 +127,7 @@ do
 	--mode CM \
   	--batch_size 4 --fp16 \
 	--seed ${seed} \
-    --load_ckpt  [path_to_the_saved_checkpoint_generated_after_finetuning]   --label_mask_prob ${prob} --do_prediction  --prediction_save_path prediction/checkpoint/[name your prediction file]/
-	done
+    --load_ckpt  [path_to_the_saved_checkpoint_generated_after_finetuning]  --do_prediction  --prediction_save_path prediction/checkpoint/[name your prediction file]/
 	done
 	done
 	done
