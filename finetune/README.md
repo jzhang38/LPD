@@ -62,9 +62,9 @@ To evaluate on the FewRel 1.0 test set, first go to https://competitions.codalab
 ```shell
 for seed in 43
 do
-	for Nway in 10
+	for Nway in 10 5 
 	do
-	for Kshot in 1
+	for Kshot in 5 1
 	do
 	CUDA_VISIBLE_DEVICES=2 python train_demo.py \
 	--trainN ${Nway} --N ${Nway} --K ${Kshot} --Q 1 \
