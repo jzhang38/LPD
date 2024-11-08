@@ -26,7 +26,6 @@ You can quickly run our code by following steps:
 - Install dependencies as described in following section. 
 - cd to `pretrain` or `finetune` directory then download and pre-processing data for pre-traing or finetuning.    
 
-
 ### 1. Dependencies
 
 We run our experiments on cuda 11.1.
